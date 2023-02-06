@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Browse() {
   return (
-    <div className="mt-16 p-5">
+    <div className="mt-16 p-5 md:hidden">
       <h2 className="text-[#363431] font-semibold text-base leading-5 tracking-wider">
         Browse by
       </h2>

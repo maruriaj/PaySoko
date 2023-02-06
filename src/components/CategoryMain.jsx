@@ -1,16 +1,16 @@
-import BusinessCard from './BusinessCard';
-import Chip from '../assets/chip.png';
-import Flower from '../assets/flower.png';
-import Boti from '../assets/boti.png';
-import Perfume from '../assets/perfume.png';
-import Cat from '../assets/cat.png';
-import Pods from '../assets/pods.png';
+import BusinessCard from "./BusinessCard";
+import Chip from "../assets/chip.png";
+import Flower from "../assets/flower.png";
+import Boti from "../assets/boti.png";
+import Perfume from "../assets/perfume.png";
+import Cat from "../assets/cat.png";
+import Pods from "../assets/pods.png";
 
 const products = [
-  { title: 'Kev’s Frys Place', image: Chip, id: 1 },
-  { title: 'Sheila’s Flowers', image: Flower, id: 2 },
-  { title: 'Imran’s Boutique', image: Boti, id: 3 },
-  { title: 'Angela’s Perfumes', image: Perfume, id: 4 },
+  { title: "Kev’s Frys Place", image: Chip, id: 1 },
+  { title: "Sheila’s Flowers", image: Flower, id: 2 },
+  { title: "Imran’s Boutique", image: Boti, id: 3 },
+  { title: "Angela’s Perfumes", image: Perfume, id: 4 },
 ];
 
 function CategoryMain() {
@@ -19,7 +19,7 @@ function CategoryMain() {
       <h2 className="text-[#363431] font-semibold leading-5 text-base">
         Popular Businesses & Shops
       </h2>
-      <div className="my-3 grid grid-cols-2 gap-3">
+      <div className="my-3 grid grid-cols-2 gap-3 md:grid-cols-6">
         {products.map((product) => (
           <BusinessCard key={product.id} product={product} />
         ))}

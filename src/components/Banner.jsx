@@ -2,7 +2,7 @@ import BannerImg from "../assets/banner.png";
 
 function Banner() {
   return (
-    <div className="relative bg-[#E1E4F6] h-[247px] pt-20 shadow-md">
+    <div className="relative bg-[#E1E4F6] h-[247px] pt-20 shadow-md md:hidden">
       <h2 className="text-[#151444] text-center text-base font-semibold tracking-wider leading-6">
         Payments and eBusiness MarketPlace
       </h2>

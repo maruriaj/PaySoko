@@ -1,6 +1,6 @@
-import Card from './Card';
-import { FadeLoader } from 'react-spinners';
-import { useState } from 'react';
+import Card from "./Card";
+import { FadeLoader } from "react-spinners";
+import { useState } from "react";
 
 function ProductMain({ products, loading, category }) {
   const [all, setAll] = useState(false);
@@ -25,7 +25,7 @@ function ProductMain({ products, loading, category }) {
         </div>
       )}
       {products.length > 0 && (
-        <div className="my-2 grid grid-cols-2 gap-4">
+        <div className="my-2 grid grid-cols-2 md:grid-cols-3 md:gap-3 lg:grid-cols-6 gap-4">
           {products.slice(0, initial).map((product) => (
             <Card key={product?.product_id} product={product} />
           ))}
