@@ -11,7 +11,7 @@ const products = [
 function RegisterBanner() {
   return (
     <div
-      className="hidden md:block rounded-lg mx-12 p-4 my-6 bg-cover bg-center"
+      className="hidden md:block rounded-lg max-w-[80%] mx-auto p-4 my-6 bg-cover bg-center"
       style={{
         backgroundImage: `linear-gradient(to right, rgba(44,124,241,1), rgba(0,209,255,0.5)), url(${RegBanner})`,
       }}

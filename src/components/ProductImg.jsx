@@ -14,7 +14,7 @@ function ProductImg({ category, products }) {
       <img
         src={Jewel}
         alt="product img"
-        className="absolute right-0 bottom-0 left-0 m-auto"
+        className="absolute right-0 -bottom-2 left-0 m-auto"
       />
     </div>
   );

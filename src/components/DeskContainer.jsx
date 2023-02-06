@@ -20,7 +20,11 @@ function DeskContainer({ id, title }) {
     })();
   }, [id]);
   return (
-    <div className={`hidden md:${loading ? "hidden" : "block"} md:px-12 my-4`}>
+    <div
+      className={`hidden md:${
+        loading ? "hidden" : "block"
+      } md:max-w-[80%] md:mx-auto my-4`}
+    >
       <div className="bg-white shadow-md rounded-md grid grid-rows-2 grid-cols-5">
         <div className="bg-[#F8F7FB] flex flex-col row-span-2 p-2">
           <p className="text-[#03247C] font-semibold text-xl">{title}</p>

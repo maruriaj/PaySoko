@@ -12,7 +12,7 @@ const products = [
 ];
 function DeskMain() {
   return (
-    <div className="hidden my-3 md:block md:px-12">
+    <div className="hidden my-3 md:mx-auto max-w-[80%]">
       <p className="text-[#363431] font-medium text-base leading-5 tracking-wider">
         Popular Businesses
       </p>
