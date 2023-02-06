@@ -1,5 +1,5 @@
 import React, { useState, createContext } from "react";
-import { fetchCategories } from "../requests";
+import { fetchCategories } from "../Requests";
 
 export const CatContext = createContext({});
 function CategoryContext({ children }) {
