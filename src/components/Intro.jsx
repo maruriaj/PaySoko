@@ -1,7 +1,7 @@
 function Intro() {
   return (
     <>
-      <div className="bg-[#C2EDA7] p-5 mt-4">
+      <div className="bg-[#C2EDA7] p-5 mt-4 flex flex-col justify-center items-center">
         {/* <div className="flex justify-center items-center">
         <img src={AboutImg} alt="about logo" className="" />
       </div> */}
@@ -16,15 +16,7 @@ function Intro() {
           get everything from one source: modular end-to-end solutions, flexibly
           configurable white-label products.
         </p>
-        <button className="bg-[#C2EDA7] border-[#03247C] rounded-2xl border w-full text-xs font-bold uppercase py-3 px-6 my-3">
-          Sign up
-        </button>
-      </div>
-      <div className="rounded-lg bg-gradient-to-r from-[#03247C] to-[#4D64A2] mx-4 p-4 my-7">
-        <p className="text-white font-semibold text-center text-base leading-5 tracking-wider">
-          To register your business, click on the Sign up button below.
-        </p>
-        <button className="bg-[#F79E7F] border-[#03247C] rounded-2xl w-full text-xs font-bold uppercase py-3 px-6 my-3">
+        <button className="bg-[#C2EDA7] border-[#03247C] rounded-2xl border w-fullmd:w-fit text-xs font-bold uppercase py-3 px-6 my-3">
           Sign up
         </button>
       </div>

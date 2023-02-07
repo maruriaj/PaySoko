@@ -43,7 +43,7 @@ function DeskBanner() {
           Service Deals
         </p>
       </div>
-      <div className="hidden md:flex md:mx-12 p-3 my-2 gap-3 bg-white shadow-md rounded-lg">
+      <div className="hidden md:flex md:max-w-[80%] md:mx-auto p-3 my-2 gap-3 bg-white shadow-md rounded-lg">
         <div className="flex flex-col gap-1">
           {loading && (
             <div className="flex flex-col justify-center items-center my-3 flex-1">

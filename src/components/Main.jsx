@@ -23,7 +23,7 @@ function Main() {
     }
   }, []);
   return (
-    <div className="px-5 mb-3 md:px-12">
+    <div className="px-5 mb-3 md:max-w-[80%] md:mx-auto md:px-0">
       <div className="flex justify-between items-center">
         <p className="text-[#363431] md:hidden font-medium text-base leading-5 tracking-wider">
           Popular Products
